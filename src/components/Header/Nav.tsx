@@ -33,7 +33,7 @@ const Nav: React.FC<INav> = ({ handleDrawer }) => {
             onClick={handleDrawer}
             to="/"
           >
-            Home
+            Inicio
           </Link>
         </li>
 
@@ -46,7 +46,7 @@ const Nav: React.FC<INav> = ({ handleDrawer }) => {
             onClick={handleDrawer}
             to="/products"
           >
-            Products
+            Productos
           </Link>
         </li>
 
@@ -59,7 +59,7 @@ const Nav: React.FC<INav> = ({ handleDrawer }) => {
             onClick={handleDrawer}
             to="/contact"
           >
-            Contact
+            Contacto
           </Link>
         </li>
       </ul>

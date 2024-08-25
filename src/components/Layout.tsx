@@ -4,13 +4,13 @@ import Footer from "./Footer";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <main className="flex flex-col justify-between min-h-screen bg-body">
+    <div className="flex flex-col justify-between min-h-screen bg-body">
       <Header />
-      <div className="flex flex-1 self-center p-4 h-full w-full max-w-1k">
+      <main className="flex flex-1 self-center justify-center sm:p-4 sm:pt-0 h-full w-full max-w-1k">
         {children}
-      </div>
+      </main>
       <Footer />
-    </main>
+    </div>
   );
 };
 

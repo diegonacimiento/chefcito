@@ -14,6 +14,7 @@ export default [
       "Cook the spaghetti. In a separate bowl, whisk eggs and Parmesan. Fry pancetta until crispy. Combine pasta with pancetta and remove from heat. Stir in the egg mixture quickly. Serve with more Parmesan and black pepper.",
     category: "Main Course",
     region: "Italian",
+    price: 12.99,
   },
   {
     id: 2,
@@ -33,6 +34,7 @@ export default [
       "Marinate pork in a chili and pineapple sauce. Grill the pork and slice thinly. Serve on warm corn tortillas with chopped onion, cilantro, and a squeeze of lime.",
     category: "Main Course",
     region: "Mexican",
+    price: 8.99,
   },
   {
     id: 3,
@@ -51,6 +53,7 @@ export default [
       "Cook sushi rice and season with vinegar. Place nori on a bamboo mat, spread rice evenly, add fish, and roll tightly. Slice into pieces and serve with soy sauce, wasabi, and pickled ginger.",
     category: "Main Course",
     region: "Japanese",
+    price: 15.99,
   },
   {
     id: 4,
@@ -71,6 +74,7 @@ export default [
       "Soak noodles in warm water. Stir-fry shrimp or chicken with eggs. Add tamarind paste and fish sauce, then stir in noodles. Top with bean sprouts, crushed peanuts, and lime juice.",
     category: "Main Course",
     region: "Thai",
+    price: 10.99,
   },
   {
     id: 5,
@@ -82,6 +86,7 @@ export default [
       "Make a dough with flour, yeast, milk, sugar, and salt. Layer with butter and fold multiple times to create layers. Roll and shape into croissants. Let rise, then bake until golden.",
     category: "Breakfast",
     region: "French",
+    price: 3.49,
   },
   {
     id: 6,
@@ -101,6 +106,7 @@ export default [
       "Cook beef in butter until browned. Remove and cook onions and mushrooms in the same pan. Add broth and mustard, then return beef to the pan. Stir in sour cream and serve over noodles.",
     category: "Main Course",
     region: "Russian",
+    price: 14.99,
   },
   {
     id: 7,
@@ -121,6 +127,7 @@ export default [
       "Cook chicken and chorizo in a large pan. Add rice, saffron, and broth, and simmer. Add shrimp, mussels, peas, and bell peppers, and cook until the seafood is done and the rice is tender.",
     category: "Main Course",
     region: "Spanish",
+    price: 18.99,
   },
   {
     id: 8,
@@ -141,6 +148,7 @@ export default [
       "Marinate chicken in yogurt and spices. Cook the chicken until browned. In a separate pan, make a sauce with butter, garlic, ginger, and spices, then add tomato puree and cream. Simmer and add chicken.",
     category: "Main Course",
     region: "Indian",
+    price: 12.49,
   },
   {
     id: 9,
@@ -160,6 +168,7 @@ export default [
       "Blend chickpeas with onion, garlic, parsley, and spices. Form into balls and deep-fry until golden. Serve in pita bread with salad and tahini sauce.",
     category: "Appetizer",
     region: "Middle Eastern",
+    price: 5.99,
   },
   {
     id: 10,
@@ -179,90 +188,6 @@ export default [
       "Cook onions and garlic in a pot until soft. Add beef and brown. Stir in paprika and tomato paste, then add broth, potatoes, and peppers. Simmer until the meat is tender.",
     category: "Main Course",
     region: "Hungarian",
+    price: 11.99,
   },
-  // {
-  //   id: 11,
-  //   name: "Ratatouille",
-  //   ingredients: [
-  //     "Zucchini",
-  //     "Eggplant",
-  //     "Tomatoes",
-  //     "Bell Peppers",
-  //     "Onion",
-  //     "Garlic",
-  //     "Herbs de Provence",
-  //   ],
-  //   instructions:
-  //     "Slice all vegetables. Cook onions and garlic in olive oil, then add other vegetables and herbs. Simmer until tender. Serve warm or at room temperature.",
-  //   category: "Side Dish",
-  //   region: "French",
-  // },
-  // {
-  //   id: 12,
-  //   name: "Bibimbap",
-  //   ingredients: [
-  //     "Rice",
-  //     "Beef",
-  //     "Spinach",
-  //     "Carrots",
-  //     "Mushrooms",
-  //     "Soy Sauce",
-  //     "Gochujang (Korean Chili Paste)",
-  //     "Egg",
-  //   ],
-  //   instructions:
-  //     "Cook rice and set aside. Sauté vegetables separately. Cook beef with soy sauce. Arrange vegetables and beef over rice, top with a fried egg, and serve with gochujang.",
-  //   category: "Main Course",
-  //   region: "Korean",
-  // },
-  // {
-  //   id: 13,
-  //   name: "Ceviche",
-  //   ingredients: [
-  //     "White Fish",
-  //     "Lime Juice",
-  //     "Onion",
-  //     "Tomato",
-  //     "Cilantro",
-  //     "Chili Peppers",
-  //     "Avocado",
-  //   ],
-  //   instructions:
-  //     "Dice fish and marinate in lime juice until opaque. Mix with chopped onions, tomatoes, cilantro, and chili peppers. Serve with sliced avocado.",
-  //   category: "Appetizer",
-  //   region: "Peruvian",
-  // },
-  // {
-  //   id: 14,
-  //   name: "Baklava",
-  //   ingredients: [
-  //     "Phyllo Dough",
-  //     "Nuts (Walnuts or Pistachios)",
-  //     "Butter",
-  //     "Honey",
-  //     "Cinnamon",
-  //   ],
-  //   instructions:
-  //     "Layer phyllo dough with melted butter and chopped nuts. Bake until golden. Drizzle with honey and let cool before serving.",
-  //   category: "Dessert",
-  //   region: "Middle Eastern",
-  // },
-  // {
-  //   id: 15,
-  //   name: "Clam Chowder",
-  //   ingredients: [
-  //     "Clams",
-  //     "Potatoes",
-  //     "Onion",
-  //     "Celery",
-  //     "Bacon",
-  //     "Milk",
-  //     "Butter",
-  //     "Flour",
-  //   ],
-  //   instructions:
-  //     "Cook bacon until crispy. Sauté onions and celery in bacon fat. Add flour to make a roux, then stir in milk. Add clams and potatoes, and simmer until tender. Season to taste.",
-  //   category: "Soup",
-  //   region: "American",
-  // },
 ];

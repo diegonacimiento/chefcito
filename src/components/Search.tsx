@@ -1,31 +1,28 @@
 import React, { ChangeEvent, FormEvent, useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { IoSearch } from "react-icons/io5";
 import { MdOutlineCancel } from "react-icons/md";
 
 interface ISearch {
-  name?: string;
+  setName: React.Dispatch<React.SetStateAction<string>>;
 }
 
-const Search: React.FC<ISearch> = ({ name }) => {
-  const navigate = useNavigate();
-
-  const [value, setValue] = useState<string>(name || "");
+const Search: React.FC<ISearch> = ({ setName }) => {
+  const [value, setValue] = useState<string>("");
 
   const handleChangeInput = (event: ChangeEvent<HTMLInputElement>) => {
+    setName(event.target.value);
     setValue(event.target.value);
   };
 
   const handleDeleteSearch = () => {
     if (value) {
       setValue("");
-      navigate(`/foods`);
+      setName("");
     }
   };
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    navigate(`/foods?name=${value}`);
   };
 
   return (

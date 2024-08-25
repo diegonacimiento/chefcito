@@ -60,7 +60,7 @@ const FoodDetails: React.FC = () => {
           <div className="flex flex-col">
             {food.ingredients.map((ingredient, index) => (
               <p key={index} className={"text-justify px-2"}>
-                - {ingredient}
+                {index + 1}. {ingredient}
               </p>
             ))}
           </div>

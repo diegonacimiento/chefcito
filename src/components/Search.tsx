@@ -41,7 +41,7 @@ const Search: React.FC<ISearch> = ({ setName }) => {
             />
             <button
               type="button"
-              title="Delete search"
+              title="Eliminar búsqueda"
               onClick={handleDeleteSearch}
               className="absolute right-0 p-2 flex self-center text-secondary text-xl"
             >

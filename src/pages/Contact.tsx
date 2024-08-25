@@ -56,10 +56,11 @@ const Contact: React.FC = () => {
             ></textarea>
           </div>
           <button
+            title="Enviar mensaje"
             type="submit"
             className="p-4 my-4 h-16 w-max font-medium text-primary bg-secondary rounded-sm hover:scale-110 hover:bg-primary hover:text-secondary duration-150"
           >
-            Send message
+            Enviar mensaje
           </button>
         </form>
       </div>

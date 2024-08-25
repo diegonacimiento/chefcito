@@ -4,7 +4,7 @@ import FoodsList from "../components/FoodsList";
 
 const Foods: React.FC = () => {
   return (
-    <div className="w-full py-2">
+    <div data-aos="fade-right" className="w-full py-2">
       <FoodsList />
     </div>
   );

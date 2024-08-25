@@ -8,7 +8,7 @@ import { wafleria, welcomeImage } from "../utils/links";
 
 const Home: React.FC = () => {
   return (
-    <div>
+    <div data-aos="fade-up">
       <section>
         {" "}
         <Banner image={welcomeImage} />
@@ -33,7 +33,7 @@ const Home: React.FC = () => {
           />
         </section>
 
-        <section>
+        <section data-aos="fade-up" data-aos-duration="2000">
           <h2 className="font-bold text-secondary text-4xl p-2">Demás menúes</h2>
           <div className="flex md:justify-between flex-col md:flex-row">
             <div>
@@ -51,7 +51,7 @@ const Home: React.FC = () => {
           </div>
         </section>
 
-        <section className="sm:mt-8">
+        <section data-aos="fade-up" data-aos-duration="2000" className="sm:mt-8">
         <h2 className="font-bold text-secondary text-4xl p-2">Conoce nuestra waflería</h2>
 
           <Banner image={wafleria} />

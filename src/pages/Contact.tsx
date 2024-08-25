@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact: React.FC = () => {
   return (
-    <section className="bg-body">
+    <div data-aos="fade-up-left">
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-secondary ">
           Contactanos
@@ -63,7 +63,7 @@ const Contact: React.FC = () => {
           </button>
         </form>
       </div>
-    </section>
+    </div>
   );
 };
 

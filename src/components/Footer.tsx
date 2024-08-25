@@ -12,8 +12,8 @@ const Footer: React.FC = () => {
         <div className="flex flex-col gap-5 p-10 text-center">
           <h3 className="text-3xl font-semibold tracking-widest">Chefcito</h3>
           <p className="font-extralight">
-            No cualquiera puede convertirse en un gran artista, pero un gran
-            artista sí puede provenir de cualquier lugar
+            La cocina es el arte de transformar ingredientes simples en momentos
+            inolvidables
           </p>
         </div>
         <div className="flex justify-center sm:gap-3 p-10">

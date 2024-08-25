@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { IoMdArrowRoundBack } from "react-icons/io";
 
@@ -9,6 +9,10 @@ const FoodDetails: React.FC = () => {
   // Hooks
   const navigate = useNavigate();
   const { id } = useParams();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   // States
   const food = foods.find((food) => food.id === Number(id)) as IFoods;

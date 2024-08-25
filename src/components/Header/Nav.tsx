@@ -46,7 +46,7 @@ const Nav: React.FC<INav> = ({ handleDrawer }) => {
             onClick={handleDrawer}
             to="/foods"
           >
-            Comidas
+            Catálogo
           </Link>
         </li>
 

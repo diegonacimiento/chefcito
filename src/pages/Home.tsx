@@ -15,8 +15,11 @@ const Home: React.FC = () => {
       </section>
       <div className="p-2 my-4">
         <section>
-          <h2 className="font-bold text-secondary text-4xl p-2">Nuestros principales</h2>
+          <h2 className="font-bold text-secondary text-4xl p-2">
+            Nuestros principales
+          </h2>
           <Presentation
+            id={1}
             bigTitle="Spaghetti Carbonara"
             description="¡Conozca nuestro platillo principal realizado con mucha pasión por la cocina!"
             imageTitle="Spaghetti Carbonara"
@@ -25,6 +28,7 @@ const Home: React.FC = () => {
           />
 
           <Presentation
+            id={2}
             bigTitle="Sushi"
             description="¡Conozca nuestro exquisito Sushi con el mejor estilo de Japón!"
             imageTitle="Sushi"
@@ -34,7 +38,9 @@ const Home: React.FC = () => {
         </section>
 
         <section data-aos="fade-up" data-aos-duration="2000">
-          <h2 className="font-bold text-secondary text-4xl p-2">Demás menúes</h2>
+          <h2 className="font-bold text-secondary text-4xl p-2">
+            Demás menúes
+          </h2>
           <div className="flex md:justify-between flex-col md:flex-row">
             <div>
               <h3 className="text-center text-secondary text-xl font-light p-2">
@@ -51,8 +57,14 @@ const Home: React.FC = () => {
           </div>
         </section>
 
-        <section data-aos="fade-up" data-aos-duration="2000" className="sm:mt-8">
-        <h2 className="font-bold text-secondary text-4xl p-2">Conoce nuestra waflería</h2>
+        <section
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          className="sm:mt-8"
+        >
+          <h2 className="font-bold text-secondary text-4xl p-2">
+            Conoce nuestra waflería
+          </h2>
 
           <Banner image={wafleria} />
         </section>

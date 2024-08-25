@@ -13,12 +13,15 @@ module.exports = {
         rd: "922px",
       },
       maxWidth: {
-        "88": "22rem",
+        88: "22rem",
         "1k": "57.625rem",
         "2k": "77.5rem",
-        "520": "32.5rem",
-        "650": "40.625rem",
-        "screen-20": "calc(100vw - 70px)"
+        520: "32.5rem",
+        650: "40.625rem",
+        "screen-20": "calc(100vw - 70px)",
+      },
+      width: {
+        draw: "calc(50vw)",
       },
     },
   },

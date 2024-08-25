@@ -7,7 +7,7 @@ interface IPresentation {
   smallTitle: string;
   bigTitle: string;
   description: string;
-  category?: number;
+  id: number;
 }
 
 const Presentation: React.FC<IPresentation> = ({
@@ -16,7 +16,7 @@ const Presentation: React.FC<IPresentation> = ({
   smallTitle,
   bigTitle,
   description,
-  category,
+  id,
 }) => {
   return (
     <div className="flex flex-col items-center px-2 rd:flex-row text-secondary">
@@ -31,13 +31,13 @@ const Presentation: React.FC<IPresentation> = ({
         <h5 className="text-xs text-gray-500">{smallTitle}</h5>
         <h3 className="text-4xl font-semibold">{bigTitle}</h3>
         <p className="my-2 font-light">{description}</p>
-        <Link to={`/products?categories=${category}`}>
+        <Link to={`/foods/${id}`}>
           <button
             type="button"
-            title="See Presentation"
+            title="Ver platillo"
             className="p-4 my-4 h-16 w-max font-medium text-primary bg-secondary rounded-sm hover:scale-110 hover:bg-primary hover:text-secondary duration-150"
           >
-           Ver platillo
+            Ver platillo
           </button>
         </Link>
       </div>

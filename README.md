@@ -1,50 +1,35 @@
-# React + TypeScript + Vite
+# Chefcito
+Bienvenidos a chefcito, una landing page de un comercio gastronómico ficticio. ¡Disfrute de la navegación, el diseño y animaciones!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tabla de contenidos
+- [Clonar el proyecto](#clonar-el-proyecto) 
+- [Instalación de dependencias](#instalación-de-dependencias) 
+- [Iniciar el proyecto](#iniciar-el-proyecto)
 
-Currently, two official plugins are available:
+***
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Clonar el proyecto
+Para comenzar, deberá clonar el repositorio del proyecto en el directorio que desee. Utilice el siguiente comando:
 
-## Expanding the ESLint configuration
+```git clone https://github.com/diegonacimiento/chefcito.git```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+***
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Instalación de dependencias
+Para instalar las dependencias necesarias para Chefcito, ejecute el siguiente comando:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+``` npm install ```
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+***
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+# Iniciar el proyecto
+Para iniciar el proyecto, use el siguiente comando:
+
+```npm run dev```
+
+Este comando iniciará la aplicación y podrá comenzar a usarla como está previsto.
+
+***
+
+Esta documentación debería proporcionarle la información necesaria para configurar y usar Chefcito. Si tiene más preguntas o encuentra problemas, no dude en solicitar ayuda.

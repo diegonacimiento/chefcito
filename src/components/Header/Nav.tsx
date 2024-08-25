@@ -41,12 +41,12 @@ const Nav: React.FC<INav> = ({ handleDrawer }) => {
           <Link
             className={
               liStyles +
-              (pathname === "/products" && " text-secondary border-secondary")
+              (pathname === "/foods" && " text-secondary border-secondary")
             }
             onClick={handleDrawer}
-            to="/products"
+            to="/foods"
           >
-            Productos
+            Comidas
           </Link>
         </li>
 

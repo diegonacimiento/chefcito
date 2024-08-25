@@ -31,3 +31,13 @@
 #carousel::-webkit-scrollbar-track, #slide-img::-webkit-scrollbar-track {
  opacity: 0;
 }
+
+@media (hover: hover) {
+ #carousel-item:hover {
+  @apply bg-gray-400;
+}
+
+.carousel-bts:hover {
+  @apply bg-secondary text-body;
+}
+}

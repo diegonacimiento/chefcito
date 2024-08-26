@@ -23,7 +23,8 @@ const FoodDetails: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col p-4">
+    <div data-aos="fade-up"
+    data-aos-duration="500" className="flex flex-col p-4">
       <div className="flex">
         <button
           type="button"

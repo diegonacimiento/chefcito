@@ -8,6 +8,6 @@ export const portfolio = "https://portfolio-diegonacimiento.vercel.app";
 export const cv =
   "https://www.dropbox.com/scl/fi/gt0g1ca46g5m4erz6h6lk/Full-Stack-Developer-Diego-Nacimiento.pdf?rlkey=7p4kxy77rq1z4b7o8sv5pe7qy&st=ve7a3ikp&dl=0";
 
-export const welcomeImage = "https://i.imgur.com/kaBH79N.png";
+export const welcomeImage = "https://iili.io/dXDfH3G.webp";
 
 export const wafleria = "https://i.imgur.com/y6vEYzQ.png";
